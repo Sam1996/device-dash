@@ -1,0 +1,55 @@
+/* Add your CSS here. This file should */
+/* automatically hot reload into the app on save */
+body{
+    background:#f7f7f7;
+}
+.wrapper,.main{
+    position: relative;
+}
+.white{
+    color: #ffffff;
+}
+.deviceName{
+    text-transform: capitalize;
+}
+.gutter{
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+.no-gutters{
+    padding-left: 0;
+    padding-right: 0;
+}
+.darkTH tr{
+    background-color:#17699E;
+}
+.aside{
+    background-color:#23272b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+.aside .nav-link{
+    color: rgb(153, 154, 155);
+    background-color: rgba(153, 154, 155,0.1);
+    border-bottom:1px solid #23272B;
+}
+.darkTH tr th{
+    color: #ffffff;
+}
+.padding{
+    padding-top:1em;
+    padding-bottom:1em;
+}
+.badge h4{
+    margin-bottom: 0;
+    padding: .5rem;
+}
+.statusBlock{
+    padding-top:2em;
+    padding-bottom:2em;
+    margin-bottom: 2em;
+    background-image: linear-gradient(to right top, #17699e, #247ca4, #408fa8, #5fa0ac, #7fb1b2);
+}
